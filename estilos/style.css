@@ -288,15 +288,21 @@ header.sticky {
 
 .tour-content {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 3rem;
+    align-content: center;
+    gap: 4rem;
     margin-top: 5rem;
 }
 
+div.tour-content img {
+    padding: 0px;
+}
+
 .box {
-    position: relative;
+    position: sticky;
 }
 
 .box img {
@@ -452,7 +458,7 @@ header.sticky {
     }
 
     section {
-        padding: 45px 5% 35px;
+        padding: 4rem;
     }
 
     :root {
@@ -506,9 +512,6 @@ header.sticky {
     .holiday {
         grid-template-columns: 1fr;
     }
-    .culture {
-        grid-template-columns: 1fr;
-    }
     .newsletter-content {
         grid-template-columns: 1fr;
     }
@@ -518,6 +521,15 @@ header.sticky {
     .feature-content {
         gap: 1.5rem;
     }
+    .box {
+        gap: 1.5rem;
+    }
+    .box img {
+        gap: 1.5rem;
+    }  
+    .tour {
+        margin-left: 200px;
+    } 
 }
 
 
@@ -539,19 +551,13 @@ header.sticky {
         padding-left: 55px;
 
     }
-    .tour {
+
+    .box {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: nowrap;
     }
 
-    .holiday {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        padding-left: 75px;
+    .box img {
+        height: auto;
     }
 
     .newsletter {

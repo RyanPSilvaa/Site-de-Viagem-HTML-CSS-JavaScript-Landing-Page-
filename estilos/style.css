@@ -550,6 +550,9 @@ div.tour-content img {
     .tour {
         padding: 0%;
     }
+    .box h6 {
+        margin-left: 250px;
+    }
     .box {
         padding: auto;
     }
@@ -587,4 +590,3 @@ div.tour-content img {
     }
     
 }
-

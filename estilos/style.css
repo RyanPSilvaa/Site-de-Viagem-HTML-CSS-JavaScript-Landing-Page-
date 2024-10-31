@@ -521,15 +521,12 @@ div.tour-content img {
     .feature-content {
         gap: 1.5rem;
     }
-    .box {
-        gap: 1.5rem;
-    }
     .box img {
-        gap: 1.5rem;
-    }  
-    .tour {
-        margin-left: 200px;
-    } 
+        height: 100%;
+        width: 100%;
+        margin-left: 350px;
+        padding-left: 50px;
+    }
 }
 
 
@@ -549,15 +546,19 @@ div.tour-content img {
         flex-wrap: nowrap;
         flex-direction: row;
         padding-left: 55px;
-
     }
-
+    .tour {
+        padding: 0%;
+    }
     .box {
-        display: flex;
+        padding: auto;
     }
 
     .box img {
-        height: auto;
+        height: 100%;
+        width: 100%;
+        margin-left: 250px;
+        padding-left: 50px;
     }
 
     .newsletter {

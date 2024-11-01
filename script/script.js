@@ -1,3 +1,8 @@
+
+function func_Aceitar() {
+    document.getElementById("cookies-msg").style.display = "none";
+}
+
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", function() {

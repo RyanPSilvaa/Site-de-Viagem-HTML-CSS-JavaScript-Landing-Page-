@@ -454,6 +454,7 @@ div.tour-content img {
     color: rgb(96, 241, 96);
 }
 
+/* Media Queries */
 @media (max-width: 1700px) {
     header {
         padding: 18px 8%;
@@ -466,7 +467,6 @@ div.tour-content img {
     }
 
 }
-/* Media Queries */
 
 @media (max-width: 1200px) {
     header {
